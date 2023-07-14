@@ -1,7 +1,9 @@
 # Flutter Native Screenshot and share image
+
 Works both on Android & iOS.
 
 ## Dependencies
+
 flutter_native_screenshot: ^1.1.2 from https://pub.dev/packages/flutter_native_screenshot.
 
 share_plus: 4.5.0 from https://pub.dev/packages/share_plus.
@@ -9,7 +11,6 @@ share_plus: 4.5.0 from https://pub.dev/packages/share_plus.
 path_provider: 2.0.5 from https://pub.dev/packages/path_provider.
 
 permission_handler: 8.3.0 from https://pub.dev/packages/permission_handler.
-
 
 ### How to Install
 
@@ -33,7 +34,7 @@ For the Android platform, you must add the following permissions to the **Androi
 And don't forget to add the following properties to the tags `application` in the **AndroidManifest.xml** file.
 
 ```
-android;requestLegacyExternalStorage="true"
+android:requestLegacyExternalStorage="true"
 ```
 
 #### iOS
@@ -51,5 +52,3 @@ For iOS platforms, you must add the following permissions to the **Info.plist** 
 ### Usage Example
 
 For examples of usage, please see in the **example** project.
-
-
