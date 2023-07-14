@@ -49,6 +49,10 @@ For iOS platforms, you must add the following permissions to the **Info.plist** 
 <string>Take pretty screenshots and save it to the PhotoLibrary.</string>
 ```
 
+### How to use
+
+await Screenshot(context).shareScreenShot();
+
 ### Usage Example
 
 For examples of usage, please see in the **example** project.
