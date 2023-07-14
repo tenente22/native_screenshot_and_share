@@ -1,5 +1,5 @@
 name: native_screenshot_and_share
-description: A new Flutter package project that takes screenshot and open the share intent.
+description: Takes screenshot and open the share intent.
 version: 0.0.1
 homepage: https://github.com/Arouven/native_screenshot_and_share
 
