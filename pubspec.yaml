@@ -1,5 +1,5 @@
 name: native_screenshot_and_share
-description: When activated, the feature instantly takes a screenshot. As the screenshot is captured, the app's share intent function is triggered, displaying a variety of platforms for sharing. Whether it's to send the screenshot via text, Bluetooth, email, or post on social media, the options are all at your fingertips. This capability embodies the essence of digital communication, blending perfectly into today's sharing culture. It's a convenient tool that amplifies efficiency in our digital era, seamlessly integrating the process of capturing and sharing moments in one quick, simple gesture.
+description: Upon activation, the feature captures a screenshot and instantly prompts a share intent. Various options appear, enabling sharing via text, Bluetooth, email, or social media. This feature simplifies digital communication, seamlessly integrating screenshot capture and sharing into our digital culture. It's a practical tool for our sharing era.
 
 version: 0.0.3
 homepage: https://github.com/Arouven/native_screenshot_and_share
