@@ -42,23 +42,23 @@ android:requestLegacyExternalStorage="true"
 For iOS platforms, you must add the following permissions to the **Info.plist** file.
 
 ```
-<key>NSAppTransportSecurity</key>
-<string>To access the internet.</string>
-
 <key>NSPhotoLibraryAddUsageDescription</key>
 <string>Take pretty screenshots and save it to the PhotoLibrary.</string>
 ```
 
 ### How to use
+
 Import the package.
+
 ```
 import 'package:native_screenshot_and_share/native_screenshot_and_share.dart';
 ```
+
 Call the function that will take the screenshot and share it. This is usually in button press.
+
 ```
 await Screenshot(context).shareScreenShot();
 ```
-
 
 ### Usage Example
 
