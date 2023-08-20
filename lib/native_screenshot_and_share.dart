@@ -37,7 +37,7 @@ class Screenshot {
     String destinationFile =
         '${(await getTemporaryDirectory()).path}/screenshot.png';
     await moveFile(path, destinationFile);
-    await Share.shareFiles([destinationFile]);
+    //  await Share.shareFiles([destinationFile]);
   }
 
   List<Widget> _actions() {
